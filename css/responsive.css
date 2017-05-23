@@ -31,7 +31,7 @@ PAGE: PORTFOLIO
 ****************************/
 
 #gallery li {
-  width: 28.3333%;
+  width: 100%;
 }
 
 #gallery li:nth-child(4n) { /*la 4 élément de la liste sera clear pour pouvoir rester à gauche*/

@@ -10,7 +10,7 @@ body {
     max-width: 940px; /*no larger than but can be indéfiniment plus petit*/
     margin: 0 auto; /*(auto meme espace à gauche et droite par rapport à la fenetre);*/
     padding: 0 5%;
-    background: #ffd9b3; /*changer l'arrière plan couleur*/
+    background: #FFEFD5; /*changer l'arrière plan couleur*/
 }
 
 a {
@@ -132,16 +132,17 @@ PAGE: PORTFOLIO
 
 #gallery li {
     float:left; /*les élément floats à gauche de chacun*/
-    width: 45%; /*45% de l'ecran donc 2 image immage seront afficher */
+    width: 100%; /*45% de l'ecran donc 2 image images seront afficher */
     margin: 2.5%; /*espace entre les image*/
-    background-color: #f5f5f5;
+    background-color: #FFEFD5;
     color: #bdc3c7; /* text color */
+    text-align: -webkit-center;
 }
 
 #gallery li a p {
     margin: 0;
     padding: 5%;
-    font-size: 0.75em;
+    font-size: 1em;
     color: #bdc3c7;
 }
 
@@ -164,15 +165,7 @@ PAGE: ABOUT
     text-align: justify;
 }
 
-.left {
-    float:left;
-    width: 20%;
-}
 
-.right {
-    float:left;
-    width: 80%;
-}
 
 /***********************************
 PAGE: CONTACT
