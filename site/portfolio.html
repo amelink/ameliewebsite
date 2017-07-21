@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400i,700,700i,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<script src="scripts.js"></script> js s'execute avant html-->
+    </head>
+    <body>
+        <header>
+            <div id="logo">
+                <h1>Portfolio</h1>
+                <h2>Marketing and Volunteering</h2>
+            </div>
+            <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="portfolio.html" class="selected">Portfolio</a></li>
+                  <li><a href="https://goo.gl/forms/dehqSHejDMPTyrpq1" target="_blank">Contact</a></li>
+              </ul>
+                <!--
+                <ul class="nav nav-tabs"> présentation WTU
+                    <li role="presentation" class="active"><a href="#">Home</a></li>
+                    <li role="presentation"><a href="#">Profile</a></li>
+                    <li role="presentation"><a href="#">Messages</a></li>
+                </ul>
+                <ul class="nav nav-pills"> présentation sous forme de bouton
+                  <li role="presentation" class="active"><a href="#">Home</a></li>
+                  <li role="presentation"><a href="#">Profile</a></li>
+                  <li role="presentation"><a href="#">Messages</a></li>
+                </ul> -->
+            </nav>
+
+              <!--<nav class="navbar fixed-top navbar-light bg-faded">    fixed navbar bootstrap4
+                <div class="container">
+                  <div class="navbar-header">
+                    <h1>Hello Everyone</h1>
+                  </div>
+                  <ul>
+                    <li><a class="navbar-brand" href="#about">About</a></li>
+                    <li><a class="navbar-brand" href="#portfolio">Portfolio</a></li>
+                    <li><a class="navbar-brand" href="#contact">Contact</a></li>
+                  </ul>
+                </div>
+            </nav>-->
+        </header>
+        <div id="wrapper" class="container-fluid">
+            <!--<div class="row">
+                <div class="col-xs-12">-->
+                    <h3>Digital Marketing Strategy</h3>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <!--<li> col-md-4 col-lg-3
+                                <h5> World Team USA best Fight Gym </h5>
+                                <a href="http://worldteamusa.com/" target="_blank">
+                                    <img src="img/WTU.jpg" class="img-responsive" alt"World Team USA">
+                                </a>
+                                <a href="portfolio/WTU-Marketing-strategy.pdf" target="_blank">
+                                    <p> WTU Marketing Strategy</p>
+                                </a>
+                                <a href="WTU-Strategy.html" target="_blank">
+                                    <p> Web design & Dynamic Dashboard</p>
+                                </a>
+                            </li>-->
+                                <div class="card thumbnail">
+                                  <h5 class="center">World Team USA best Fight Gym</h5>
+                                  <img src="img/WTU.jpg" alt="WTA">
+                                  <div class="caption">
+                                    <!--<p>WTU Marketing Strategy</p>
+                                    <p>Web design & Dynamic Dashboard</p>-->
+                                    <a href="portfolio/WTU-Marketing-strategy.pdf"class="btn btn-default project" role="button" target="_blank">Marketing Strategy</a>
+                                    <a href="WTU-Strategy.html#webdesign" class="btn btn-default project" role="button">Web Design</a>
+                                    <a href="WTU-Strategy.html#dd" class="btn btn-default project" role="button">Dynamic Dasboard</a>
+                                    <!--<p><a href="WTU-Strategy.html" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>-->
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                                  <div class="thumbnail">
+                                    <h5 class="center">Business Networking Platform</h5>
+                                    <img src="img/Kard.png" alt="Kard">
+                                    <div class="caption">
+                                      <!--<p>WTU Marketing Strategy</p> col-md-4 col-lg-3
+                                      <p>Web design & Dynamic Dashboard</p>-->
+                                      <!--<a href="portfolio/Kard-Marketing-Strategy.pdf" class="list-group-item">Marketing Strategy</a>
+                                      <a href="#" class="list-group-item">Dynamic Dashboard</a> <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>-->
+                                      <a href="portfolio/Kard-Marketing-Strategy.pdf" class="btn btn-default project" role="button" target="_blank"> Marketing Strategy</a>
+                                      <a href="Kard-Strategy.html" class="btn btn-default project" role="button">UX Design</a>
+                                      <a href="Kard-Strategy.html" class="btn btn-default project" role="button">Dynamic Dashboard</a>
+                                    </div>
+                                  </div>
+                              </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="card thumbnail">
+                              <h5 class="center">Predictive machine intelligence tools</h5>
+                              <img src="img/Signifai.png" alt="Signifai">
+                              <div class="caption">
+                                <a href="#" class="btn btn-default project" role="button">Lead Gen Project</a>
+                                <a href="#" class="btn btn-default project" role="button">Keyword Project</a>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                              <h5 class="center">French cultural and language Center</h5>
+                              <img src="img/AFSF.png" alt="AFSF">
+                              <div class="caption">
+                                <a href="#" class="btn btn-default project" role="button">Media Planning</a>
+                                <a href="#" class="btn btn-default project" role="button">Event Calendar</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h3>Volunteering missions</h3>
+                    <!--<p>Paragraphe 1</p>-->
+                    <div class="row">
+                      <div class="col-xs-6 col-md-4 col-lg-3">
+                        <div class="thumbnail">
+                          <h5 class="center">Any donation can save dogs</h5>
+                          <a href="#">
+                            <img src="img/Family-dog-rescue.png" alt="...">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-md-4 col-lg-3">
+                        <div class="thumbnail">
+                        <h5 class="center">Be aware of new technologies</h5>
+                          <a href="#">
+                            <img src="img/World-fair-nano.png" alt="...">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-md-4 col-lg-3">
+                        <div class="thumbnail">
+                            <h5 class="center">Be green to save our planet</h5>
+                          <a href="#">
+                            <img src="img/Green-festival.png" alt="...">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-md-4 col-lg-3">
+                        <div class="thumbnail">
+                          <h5 class="center">Amazing Blue Angels air show</h5>
+                          <a href="#">
+                            <img src="img/Fleetweet.png" alt="...">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--<div class="row">
+                        <ul id="gallery">
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <li>
+                                <a href="img/Family-dog-rescue.png">
+                                    <img src="img/Family-dog-rescue.png" class="img-responsive" alt"Family Dog Rescue">
+                                    <p>Any donation can save dogs </p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <li>
+                            <a href="img/World-fair-nano.png">
+                                <img src="img/World-fair-nano.png" class="img-responsive" alt"World Fair Nano">
+                                <p>Be aware of new technologies</p>
+                            </a>
+                        </li>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <li>
+                                <a href="img/Green-festival.png">
+                                    <img src="img/Green-festival.png" class="img-responsive" alt"Green Festival">
+                                    <p>Be green to save our planet</p>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                            <li>
+                                <a href="img/Fleetweet.png">
+                                    <img src="img/Fleetweet.png" class="img-responsive" alt"Fleeweet">
+                                    <p>Amazing Blue Angels air show</p>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </div>-->
+                            <!--<li>
+                                <a href="img localisation">
+                                    <img src="image localisation" alt"">
+                                    <p>creating shapes using repetitions</p>
+                                </a>
+                            </li>
+
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+
+                     </ul>-->
+
+
+            <footer>
+               <!--<a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i></a>-->
+               <!--<a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>-->
+               <a href="https://www.linkedin.com/in/amelie-ink/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.instagram.com/amelink8/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
+               <a href="https://www.freecodecamp.com/amelink" target="_blank"><i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i></a>
+               <a href="https://codepen.io/amelink/" target="_blank"><i class="fa fa-codepen fa-3x" aria-hidden="true"></i></a>
+                 <p>&copy; by Amélie</p>
+            </footer>
+        </div>
+            <!--<footer>
+                <a href="http:twitter.com"><img src="img/twitter-wrap.png" alt="twitter logo" class="social-icon"></a>
+                <a href="http:facebook.com"><img src="img/facebook-wrap.png" alt="facebook logo" class="social-icon"></a>
+                <p>&copy; by Amélie</p>
+            </footer>-->
+            <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">-->
+        <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+</html>
