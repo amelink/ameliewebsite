@@ -28,7 +28,6 @@ h3 {
 
 .center {
     text-align: center;
-    color: #789;
 }
 
 #carousel-example-generic {
@@ -38,12 +37,6 @@ h3 {
     margin: 0% 0 0 0;
 }
 
-.caption { // not working
-margin: 0
-    padding: 5%;
-    font-size: 1em;
-    color: #bdc3c7;
-}
 
 a.project {
     width: 100%;
@@ -51,8 +44,16 @@ a.project {
     background-color: #eaeffa;
 }
 
-div.card {
-    height: 90%;
+
+.topmargin {
+  margin-top: 5%;
+}
+
+.caption { // not working
+margin: 0
+    padding: 5%;
+    font-size: 1em;
+    color: #bdc3c7;
 }
 
 
@@ -190,8 +191,14 @@ PAGE: ABOUT
 .profile-photo {
     display: block; /* sépare les block */
     max-width: 150px; /*no larger*/
-    margin: 0 auto 30px; /* auto permet de centrer */
+    margin: auto; /* auto permet de centrer */
     border-radius: 100%; /*rond (12px corner curve)*/
+}
+
+.profile-photo1 {
+    display: block; /* sépare les block */
+    margin: auto; /* auto permet de centrer */
+    border-radius: 15%; /*rond (12px corner curve)*/
 }
 
 .about {
@@ -298,4 +305,12 @@ nav a.selected, nav a:hover /*= pseudo class)*/ {
 a.project:hover {
   background-color: #5283d8;
   color: #fff;
+}
+
+.noir {
+  color: #000;
+}
+
+.darkgrey {
+  color: #696969;
 }
